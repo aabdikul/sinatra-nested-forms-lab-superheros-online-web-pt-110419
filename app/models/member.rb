@@ -2,6 +2,8 @@ class Member
 
   attr_accessor :name, :power, :bio
 
+  MEMBERS = []
+
   def initialize(args)
     @name = args[:name]
     @power = args[:power]
